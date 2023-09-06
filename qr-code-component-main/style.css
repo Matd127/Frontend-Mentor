@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,900&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  box-sizing: border-box;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card {
+  padding: 1rem;
+  width: 250px;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card h1 {
+  /* padding: 3px; */
+  font-size: 19px;
+}
+
+.card p {
+  font-size: 14px;
+  color: gray;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
